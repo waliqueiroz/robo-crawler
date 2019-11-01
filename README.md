@@ -3,7 +3,7 @@
 Este robô web crawler faz uma busca no e-comemerce de um hotel e retorna informações dos quartos disponíveis no período solicitado.
 
 1. [Pré-requisitos](#pre-requisitos)
-1. [Principais dependências](#principais-dependencias)
+1. [Principais dependências](#principais-ferramentas)
 1. [Instalação](#instalacao)
 1. [Testando a aplicação](#teste)
 
@@ -13,8 +13,8 @@ Este robô web crawler faz uma busca no e-comemerce de um hotel e retorna inform
 
 - [Node.js 8.1.3+](https://nodejs.org/en/)
 
-<a id="principais-dependencias"></a>
-##  2. Principais dependências utilizadas
+<a id="principais-ferramentas"></a>
+##  2. Principais ferramentas utilizadas
 1. [Express JS](https://expressjs.com/pt-br/). Um framework JavaScript que contém a maioria das ferramentas necessárias para a construção de uma API web.
 
 1. [Puppeter](https://developers.google.com/web/tools/puppeteer/?hl=pt-br). Um módulo do Node.js que fornece uma API detalhada para controlar o Headless Chrome.
