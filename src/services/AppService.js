@@ -2,13 +2,13 @@ const puppeteer = require('puppeteer');
 const cheerio = require('cheerio');
 module.exports = {
     async buscar(url) {
-        const response = [];
+        const resposta = [];
         const browser = await puppeteer.launch();
-        const page = await browser.newPage();
-        await page.goto(url);
+        const pagina = await browser.newPage();
+        await pagina.goto(url);
 
-        const content = await page.content();
-        const $ = cheerio.load(content);
+        const conteudo = await pagina.content();
+        const $ = cheerio.load(conteudo);
 
         $('.roomName').each(function () {
             const nome = $(this).find('.excerpt h5 a').text().trim();
@@ -29,11 +29,11 @@ module.exports = {
                 imagens
             }
 
-            response.push(item);
+            resposta.push(item);
         });
 
         browser.close();
 
-        return response;
+        return resposta;
     }
 }
