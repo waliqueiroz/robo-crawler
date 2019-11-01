@@ -5,7 +5,7 @@ Robô web crawler que faz uma busca no e-comemerce de um hotel e retorna informa
 1. [Pré-requisitos](#pre-requisitos)
 1. [Principais dependências](#principais-dependencias)
 1. [Instalação](#instalacao)
-1. [Testando a apicação](#teste)
+1. [Testando a aplicação](#teste)
 
 
 <a id="pre-requisitos"></a>
@@ -53,6 +53,8 @@ Com o servidor de desenvolvimento inicializado, envie um JSON via requisição P
   	"checkout": "14/11/2019"
   }
 ```
+
+Para enviar requisições você poderá utilizar ferramentas como o [Insomnia](https://insomnia.rest/download/) ou o [Postman](https://www.getpostman.com/).
 
 A aplicação retornará um JSON com as informações básicas dos quartos disponíveis no período solicitado. Um exemplo de resposta pode ser visto a seguir:
 
