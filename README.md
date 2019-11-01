@@ -1,6 +1,6 @@
 # Robô Crawler
 
-Robô web crawler que faz uma busca no e-comemerce de um hotel e retorna informações dos quartos disponíveis no período solicitado pelo usuário.
+Este robô web crawler faz uma busca no e-comemerce de um hotel e retorna informações dos quartos disponíveis no período solicitado.
 
 1. [Pré-requisitos](#pre-requisitos)
 1. [Principais dependências](#principais-dependencias)
