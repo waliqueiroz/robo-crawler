@@ -37,7 +37,7 @@ npm install
 Após baixar as dependências, execute o comando abaixo no diretório raiz.
 
 ```
-npm run serve
+npm run dev
 ```
 
 A aplicação iniciará um servidor local que escuta a porta 8080.
