@@ -1,11 +1,11 @@
 # Robô Crawler
 
-Robô web crawler que faz busca de preços em tempo real.
+Robô web crawler que faz uma busca no e-comemerce de um hotel e retorna informações dos quartos disponíveis no período solicitado pelo usuário.
 
 1. [Pré-requisitos](#pre-requisitos)
 1. [Principais dependências](#principais-dependencias)
 1. [Instalação](#instalacao)
-1. [Funcionamento](#funcionamento)
+1. [Testando a apicação](#teste)
 
 
 <a id="pre-requisitos"></a>
@@ -42,15 +42,15 @@ npm run serve
 
 A aplicação iniciará um servidor local que escuta a porta 8080.
 
-<a id="funcionamento"></a>
-## 4. Funcionamento
+<a id="teste"></a>
+## 4. Testando a aplicação
 
-Com o servidor de desenvolvimento inicializado, envie uma requisição POST para a url http://127.0.0.1:8080/api/buscar. Deve ser enviado na requisição um JSON com o intervalo de datas a ser consultado, como no exemplo abaixo:
+Com o servidor de desenvolvimento inicializado, envie um JSON via requisição POST para a url http://127.0.0.1:8080/api/buscar contendo o intervalo de datas a ser consultado, como no exemplo abaixo:
 
 ```
   {
 	"checkin": "12/11/2019",
-  "checkout": "14/11/2019"
+  	"checkout": "14/11/2019"
   }
 ```
 
