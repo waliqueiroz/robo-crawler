@@ -24,7 +24,7 @@ Este robô web crawler faz uma busca no e-comemerce de um hotel e retorna inform
 <a id="instalacao"></a>
 ##  3. Instalação
 
-### Baixar dependências
+### 3.1 Baixar dependências
 
 Execute o comando abaixo pelo terminal dentro do diretório raiz da aplicação.
 
@@ -32,7 +32,7 @@ Execute o comando abaixo pelo terminal dentro do diretório raiz da aplicação.
 npm install
 ```
 
-### Inicializar servidor de desenvolvimento
+### 3.2 Inicializar servidor de desenvolvimento
 
 Após baixar as dependências, execute o comando abaixo no diretório raiz.
 
