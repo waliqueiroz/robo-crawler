@@ -3,7 +3,7 @@
 Este robô web crawler faz uma busca no e-comemerce de um hotel e retorna informações dos quartos disponíveis no período solicitado.
 
 1. [Pré-requisitos](#pre-requisitos)
-1. [Principais dependências](#principais-ferramentas)
+1. [Principais ferramentas](#principais-ferramentas)
 1. [Instalação](#instalacao)
 1. [Testando a aplicação](#teste)
 
