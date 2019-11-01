@@ -15,7 +15,7 @@ Robô web crawler que faz busca de preços em tempo real.
 
 <a id="principais-dependencias"></a>
 ##  2. Principais dependências utilizadas
-1. [Express JS](https://expressjs.com/pt-br/). Um framework contém a maioria das ferramentas necessárias para a construção de uma API web.
+1. [Express JS](https://expressjs.com/pt-br/). Um framework JavasCript que contém a maioria das ferramentas necessárias para a construção de uma API web.
 
 1. [Puppeter](https://developers.google.com/web/tools/puppeteer/?hl=pt-br). Um módulo do Node.js que fornece uma API detalhada para controlar o Headless Chrome.
 
