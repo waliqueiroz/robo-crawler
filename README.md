@@ -11,7 +11,7 @@ Este robô web crawler faz uma busca no e-comemerce de um hotel e retorna inform
 <a id="pre-requisitos"></a>
 ## 1. Pré-requisitos
 
-- [Node.js 8.1.3+](https://nodejs.org/en/)
+- [Node.js 8.1.3 ou superior](https://nodejs.org/en/)
 
 <a id="principais-ferramentas"></a>
 ##  2. Principais ferramentas utilizadas
@@ -54,7 +54,7 @@ Com o servidor de desenvolvimento inicializado, envie um JSON via requisição P
   }
 ```
 
-Para enviar requisições você poderá utilizar ferramentas como o [Insomnia](https://insomnia.rest/download/) ou o [Postman](https://www.getpostman.com/).
+Para enviar requisições você poderá utilizar ferramentas como [Insomnia](https://insomnia.rest/download/) ou [Postman](https://www.getpostman.com/).
 
 A aplicação retornará um JSON com as informações básicas dos quartos disponíveis no período solicitado. Um exemplo de resposta pode ser visto a seguir:
 
